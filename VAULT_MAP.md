@@ -1,6 +1,6 @@
 ---
 last_updated: 2026-03-05
-last_entry: prediction-market-regulation.md
+last_entry: scrapling.md
 maintained_by: fetch
 ---
 
@@ -10,6 +10,11 @@ maintained_by: fetch
 Context about Kishan — biographical, preferences, logs.
 - kishan/bio.md — Static background, career history, technical skills
 - kishan/preferences.md — Work style, values, risk tolerance, decision patterns
+
+## tools/
+Research briefs on open-source libraries, frameworks, and platforms.
+- tools/python/ — Python library research.
+  - tools/python/scrapling.md — Adaptive web scraping framework: anti-bot bypass, element tracking, spider framework. 17.9k GitHub stars, pre-1.0 (v0.4.1), single maintainer (as of Mar 2026).
 
 ## missions/
 One subdirectory per active business venture.
