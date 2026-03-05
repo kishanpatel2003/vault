@@ -1,5 +1,6 @@
 ---
 last_updated: 2026-03-05
+# last entry: prediction-market-regulation.md (polymarket mission)
 maintained_by: fetch
 ---
 
@@ -12,4 +13,5 @@ Context about Kishan — biographical, preferences, logs.
 
 ## missions/
 One subdirectory per active business venture.
-*(No missions created yet.)*
+- polymarket/ — Prediction market regulatory landscape, CFTC jurisdiction, and enforcement research.
+  - polymarket/research/prediction-market-regulation.md — U.S. regulatory status: CFTC enforcement history, Polymarket re-entry approval, state gaming law vs. federal preemption circuit split (as of Mar 2026).
