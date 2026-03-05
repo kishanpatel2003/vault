@@ -1,7 +1,12 @@
+---
+directory: missions/
+last_updated: 2026-03-05
+---
+
 # missions/
 
-One subdirectory per active business venture.
+one subdirectory per active mission. each mission has its own _index.md.
 
-| Mission | Description |
-|---------|-------------|
-| [polymarket/](polymarket/_index.md) | Research and analysis related to Polymarket and the prediction market regulatory landscape. |
+| mission | description | status |
+|---------|-------------|--------|
+| [polymarket](polymarket/_index.md) | prediction market strategy, regulatory landscape, data infrastructure | active |

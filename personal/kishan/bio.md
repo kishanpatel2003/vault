@@ -4,10 +4,11 @@ type: personal_context
 last_updated: 2026-03-05
 ---
 
-## Background
-- **Name:** Kishan Patel (he/him)
-- **Location:** New York City
-- **Role:** Data Scientist @ Spotify, fraud-detection team
-- **Stack:** Python (pandas, numpy, scikit-learn), SQL, dbt, Postgres, Docker, BigQuery/Snowflake patterns
-- **Domains:** Anomaly detection, clustering, embeddings, similarity search, A/B testing
-- **Long-term goal:** Financial/time/location freedom — no more than 10 years in corporate
+## profile
+- **name:** Kishan Patel (he/him)
+- **location:** New York City
+- **current role:** Data Scientist at Spotify
+- **long-term goal:** financial, time, and location independence — 10-year clock from corporate
+
+## background
+builder and optimization-oriented operator. data science background with experience across ML, data engineering, and analytics. actively building side projects and agent systems with ambitions beyond corporate employment.

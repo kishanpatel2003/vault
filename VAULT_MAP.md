@@ -1,6 +1,6 @@
 ---
 last_updated: 2026-03-05
-# last entry: prediction-market-regulation.md (polymarket mission)
+last_entry: prediction-market-regulation.md
 maintained_by: fetch
 ---
 
