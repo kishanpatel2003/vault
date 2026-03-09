@@ -1,6 +1,6 @@
 ---
-last_updated: 2026-03-08
-last_entry: claude-code-auto-mode.md
+last_updated: 2026-03-09
+last_entry: anthropic-openclaw-subscription-block.md
 maintained_by: fetch
 ---
 
@@ -22,5 +22,6 @@ One subdirectory per active business venture. Also includes a `general/` directo
   - general/research/harness-engineering.md — What harness engineering is, how it differs from prompt engineering, Anthropic and OpenAI best practices, tooling patterns, evaluation frameworks, field direction (as of Mar 2026).
   - general/research/harness-engineering-eval.md — Self-assessment eval for harness-engineering.md (18/18).
   - general/research/claude-code-auto-mode.md — Claim verification of @rohanpaul_ai tweet on Anthropic's Claude Code auto mode announcement (Mar 2026). Largely accurate; one date error, one omitted caveat.
+  - general/research/anthropic-openclaw-subscription-block.md — Anthropic's January 2026 technical block and February 2026 policy formalization banning Claude subscription OAuth tokens in third-party tools including OpenClaw. Accounts not canceled; API-key users unaffected (Mar 2026).
 - polymarket/ — Prediction market regulatory landscape, CFTC jurisdiction, and enforcement research.
   - polymarket/research/prediction-market-regulation.md — U.S. regulatory status: CFTC enforcement history, Polymarket re-entry approval, state gaming law vs. federal preemption circuit split (as of Mar 2026).
