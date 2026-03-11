@@ -1,6 +1,6 @@
 ---
-last_updated: 2026-03-09
-last_entry: openai-vs-anthropic-agentic-remix-pipeline.md
+last_updated: 2026-03-11
+last_entry: cloudflare-crawl-endpoint.md
 maintained_by: fetch
 ---
 
@@ -15,6 +15,8 @@ Context about Kishan — biographical, preferences, logs.
 Research briefs on open-source libraries, frameworks, and platforms.
 - tools/python/ — Python library research.
   - tools/python/scrapling.md — Adaptive web scraping framework: anti-bot bypass, element tracking, spider framework. 17.9k GitHub stars, pre-1.0 (v0.4.1), single maintainer (as of Mar 2026).
+- tools/research/ — General tool research not tied to a language.
+  - tools/research/cloudflare-crawl-endpoint.md — Cloudflare Browser Rendering /crawl endpoint (open beta Mar 2026): async multi-page crawl API, HTML/Markdown/JSON output, pricing, limits, API usage, comparisons, integration patterns.
 
 ## missions/
 One subdirectory per active business venture. Also includes a `general/` directory for research not tied to a specific venture.
