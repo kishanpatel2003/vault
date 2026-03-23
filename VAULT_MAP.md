@@ -1,6 +1,6 @@
 ---
 last_updated: 2026-03-11
-last_entry: cloudflare-crawl-endpoint.md
+last_entry: coding-agent-builder-patterns.md
 maintained_by: fetch
 ---
 
@@ -17,6 +17,11 @@ Research briefs on open-source libraries, frameworks, and platforms.
   - tools/python/scrapling.md — Adaptive web scraping framework: anti-bot bypass, element tracking, spider framework. 17.9k GitHub stars, pre-1.0 (v0.4.1), single maintainer (as of Mar 2026).
 - tools/research/ — General tool research not tied to a language.
   - tools/research/cloudflare-crawl-endpoint.md — Cloudflare Browser Rendering /crawl endpoint (open beta Mar 2026): async multi-page crawl API, HTML/Markdown/JSON output, pricing, limits, API usage, comparisons, integration patterns.
+
+## workflows/
+Research briefs on how builders and teams use AI coding agents in practice.
+- workflows/research/ — Practitioner workflow patterns.
+  - workflows/research/coding-agent-builder-patterns.md — How real builders use coding agents daily (Q1 2026): iterative pair-programming dominates; CLAUDE.md + spec-first for context; multi-agent delegation via artifact handoffs; documented failure modes in autonomous setups.
 
 ## missions/
 One subdirectory per active business venture. Also includes a `general/` directory for research not tied to a specific venture.
