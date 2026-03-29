@@ -1,6 +1,6 @@
 ---
-last_updated: 2026-03-11
-last_entry: coding-agent-builder-patterns.md
+last_updated: 2026-03-28
+last_entry: local-voice-conversation-stack.md
 maintained_by: fetch
 ---
 
@@ -17,6 +17,7 @@ Research briefs on open-source libraries, frameworks, and platforms.
   - tools/python/scrapling.md — Adaptive web scraping framework: anti-bot bypass, element tracking, spider framework. 17.9k GitHub stars, pre-1.0 (v0.4.1), single maintainer (as of Mar 2026).
 - tools/research/ — General tool research not tied to a language.
   - tools/research/cloudflare-crawl-endpoint.md — Cloudflare Browser Rendering /crawl endpoint (open beta Mar 2026): async multi-page crawl API, HTML/Markdown/JSON output, pricing, limits, API usage, comparisons, integration patterns.
+  - tools/research/local-voice-conversation-stack.md — Local-first two-way voice on macOS Apple Silicon (Mar 2026): whisper.cpp (Metal) for STT, Kokoro-82M via FastAPI for TTS, OpenClaw Telegram integration, install steps, MVP and long-term stack options.
 
 ## workflows/
 Research briefs on how builders and teams use AI coding agents in practice.
