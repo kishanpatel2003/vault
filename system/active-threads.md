@@ -23,7 +23,7 @@ kishan needs to run `openclaw gateway install` from Terminal on mac mini (GUI se
 
 token was pasted in plaintext during initial setup. needs revoke + new token from @BotFather.
 
-**status:** verify — is this still pending? (migrated from MEMORY.md 2026-03-29)
+**status:** pending verification — confirm whether rotation was completed after initial setup
 
 ---
 
@@ -32,11 +32,3 @@ token was pasted in plaintext during initial setup. needs revoke + new token fro
 pinned task. script works, just needs to be re-scheduled.
 
 **status:** pending re-scheduling
-
----
-
-## selena token tracking
-
-running as of 2026-03-06 11:22 AM. monitor for completion.
-
-**status:** verify — may be complete by now (migrated from MEMORY.md 2026-03-29)

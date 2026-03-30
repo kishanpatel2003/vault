@@ -1,6 +1,6 @@
 ---
-last_updated: 2026-03-29
-last_entry: health/baselines.md
+last_updated: 2026-03-30
+last_entry: tools/research/aristotle-memory-plugin.md
 maintained_by: fetch
 ---
 
@@ -33,6 +33,7 @@ Research briefs on open-source libraries, frameworks, and platforms.
 - tools/research/ — General tool research not tied to a language.
   - tools/research/cloudflare-crawl-endpoint.md — Cloudflare Browser Rendering /crawl endpoint (open beta Mar 2026): async multi-page crawl API, HTML/Markdown/JSON output, pricing, limits, API usage, comparisons, integration patterns.
   - tools/research/local-voice-conversation-stack.md — Local-first two-way voice conversation on macOS Apple Silicon for OpenClaw: local STT/TTS options, integration patterns, latency tradeoffs, and recommended MVP + longer-term stack (Mar 2026).
+  - tools/research/aristotle-memory-plugin.md — Aristotle OpenClaw plugin: proactive memory protection via before_tool_call hook (Guard), context window pressure monitoring, nightly QC cron + Telegram reports. Single maintainer, 6 days old, no releases. Watchlist recommendation (Mar 2026).
 
 ## workflows/
 Research briefs on how builders and teams use AI coding agents in practice.
