@@ -1,7 +1,8 @@
 ---
 title: "Kishan Patel — Bio"
 type: personal_context
-last_updated: 2026-03-05
+last_updated: 2026-03-29
+tags: [kishan, personal]
 ---
 
 ## profile

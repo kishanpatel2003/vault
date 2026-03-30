@@ -17,6 +17,7 @@ System-level knowledge: architecture, lessons, decisions, active threads.
 - system/memory-inventory.md — Full audit and classification of all memory surfaces (Mar 2026).
 - system/active-threads.md — Open threads requiring follow-up or monitoring: gateway install, token rotation, fetch harness, selena tracking.
 - system/lessons.md — Durable operational lessons: cron vs LaunchAgent, gateway resilience (Mar 2026).
+- system/fleet-architecture.md — Agent fleet architecture: agents, roles, models, governance rules, shared resources (established Mar 2026).
 - system/decisions/
   - system/decisions/2026-03-04-benchmarking-too-slow-use-anthropic-faster-model.md — Switched from local ollama to Anthropic API for benchmarking due to OOM/latency (Mar 2026).
 

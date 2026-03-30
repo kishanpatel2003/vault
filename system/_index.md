@@ -15,6 +15,7 @@ System-level knowledge: architecture specs, operational lessons, decision record
 - [memory-inventory.md](memory-inventory.md) — full audit and classification of all memory surfaces (2026-03-29)
 - [active-threads.md](active-threads.md) — open threads requiring follow-up or monitoring
 - [lessons.md](lessons.md) — durable operational lessons learned
+- [fleet-architecture.md](fleet-architecture.md) — agent fleet: agents, roles, models, governance rules
 
 ## subdirectories
 
