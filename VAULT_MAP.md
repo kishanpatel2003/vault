@@ -24,6 +24,7 @@ System-level knowledge: architecture, lessons, decisions, active threads.
 ## health/
 Health and fitness baselines, longitudinal summaries, trend data (bryan-derived).
 - health/baselines.md — Bryan baseline data: starting weight 151.3 lbs, vegetarian diet rules, tracking start 2026-03-29.
+- health/vesync-smart-scale-integration.md — VeSync/Etekcity scale integration research: no official API, Apple Health bridge path required, body weight reliable, BIA composition metrics directional only. Buy-with-caveats verdict (Mar 2026).
 
 ## tools/
 Research briefs on open-source libraries, frameworks, and platforms.
