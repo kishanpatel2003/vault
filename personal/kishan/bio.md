@@ -6,7 +6,7 @@ last_updated: 2026-03-05
 
 ## profile
 - **name:** Kishan Patel (he/him)
-- **location:** New York City
+- **location:** New York City (penthouse)
 - **current role:** Data Scientist at Spotify
 - **long-term goal:** financial, time, and location independence — 10-year clock from corporate
 
