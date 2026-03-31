@@ -102,19 +102,19 @@ retrieval is explicit, layered, and deterministic:
 
 ## 3. write contract
 
-| artifact type | first written to | canonical? | who promotes | expiry |
-|---------------|-----------------|------------|--------------|--------|
-| daily session notes | `memory/YYYY-MM-DD.md` | no (staging) | diana during periodic review | kept ~30 days, then archivable |
-| heartbeat entries | appended to daily log | no | never promoted raw; signal extracted during review | dies with daily log |
-| decisions | `decisions/YYYY-MM-DD-slug.md` | yes (local canonical) | migrate to vault `system/decisions/` | permanent |
-| research briefs | vault `fetch/` subfolders | no (working, owned by fetch) | diana promotes distilled version to canonical area | permanent in fetch/; promoted version permanent in canonical |
-| kishan profile/prefs | vault `personal/kishan/` | yes | diana updates when patterns change | permanent |
-| system lessons | vault `system/` | yes | diana writes when lesson is durable | permanent |
-| health baselines | vault `health/` (new) | yes | diana promotes from bryan logs | permanent |
-| food/meal logs | `workspace/bryan/food-log/` | no (operational) | summarized weekly/monthly into vault health notes | kept indefinitely as raw data |
-| progress pics | `workspace/bryan/progress-pics/` | no (operational) | referenced in vault health summaries | kept indefinitely as raw data |
-| weight readings | `workspace/bryan/weight-log.md` | no (operational) | trend data promoted to vault health summaries | kept indefinitely as raw data |
-| active threads | vault `system/active-threads.md` | yes | diana maintains | pruned when resolved |
+| artifact type        | first written to                 | canonical?                   | who promotes                                       | expiry                                                       |
+| -------------------- | -------------------------------- | ---------------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| daily session notes  | `memory/YYYY-MM-DD.md`           | no (staging)                 | diana during periodic review                       | kept ~30 days, then archivable                               |
+| heartbeat entries    | appended to daily log            | no                           | never promoted raw; signal extracted during review | dies with daily log                                          |
+| decisions            | `decisions/YYYY-MM-DD-slug.md`   | yes (local canonical)        | migrate to vault `system/decisions/`               | permanent                                                    |
+| research briefs      | vault `fetch/` subfolders        | no (working, owned by fetch) | diana promotes distilled version to canonical area | permanent in fetch/; promoted version permanent in canonical |
+| kishan profile/prefs | vault `personal/kishan/`         | yes                          | diana updates when patterns change                 | permanent                                                    |
+| system lessons       | vault `system/`                  | yes                          | diana writes when lesson is durable                | permanent                                                    |
+| health baselines     | vault `health/` (new)            | yes                          | diana promotes from bryan logs                     | permanent                                                    |
+| food/meal logs       | `workspace/bryan/food-log/`      | no (operational)             | summarized weekly/monthly into vault health notes  | kept indefinitely as raw data                                |
+| progress pics        | `workspace/bryan/progress-pics/` | no (operational)             | referenced in vault health summaries               | kept indefinitely as raw data                                |
+| weight readings      | `workspace/bryan/weight-log.md`  | no (operational)             | trend data promoted to vault health summaries      | kept indefinitely as raw data                                |
+| active threads       | vault `system/active-threads.md` | yes                          | diana maintains                                    | pruned when resolved                                         |
 
 ---
 

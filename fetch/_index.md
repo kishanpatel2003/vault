@@ -22,6 +22,7 @@ Fetch-owned research artifacts. Not canonical shared memory until explicitly pro
 
 ### general/
 - coding-agent-builder-patterns.md — how real builders use coding agents daily (Q1 2026)
+- diana-completion-update-failure-audit.md — root cause audit of diana's proactive completion update failures (Mar 2026)
 
 ### health/
 - vesync-smart-scale-integration.md — VeSync/Etekcity scale integration feasibility (Mar 2026)

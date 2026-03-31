@@ -29,6 +29,7 @@ Bryan/shared canonical health memory. Baselines, longitudinal summaries, protoco
 Fetch-owned research library. Not canonical shared memory until explicitly promoted.
 - fetch/general/ — cross-cutting research
   - fetch/general/coding-agent-builder-patterns.md — how real builders use coding agents daily (Q1 2026)
+  - fetch/general/diana-completion-update-failure-audit.md — root cause audit of diana's proactive completion update failures (Mar 2026)
 - fetch/health/ — health-related research (distinct from canonical health/)
   - fetch/health/vesync-smart-scale-integration.md — VeSync/Etekcity scale integration feasibility (Mar 2026)
 - fetch/tools/ — library, framework, and platform research
