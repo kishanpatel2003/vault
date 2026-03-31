@@ -3,7 +3,7 @@ title: "Memory Architecture Spec v2"
 type: system
 status: canonical
 created: 2026-03-29
-last_updated: 2026-03-30
+last_updated: 2026-03-31
 ---
 
 # Memory Architecture
@@ -156,6 +156,24 @@ retrieval is explicit, layered, and deterministic:
 
 must define startup load in their agent spec before deployment. no agent ships without a retrieval contract.
 
+### internal metadata retrieval
+
+questions about agent/fleet/workspace metadata are not the same as semantic memory recall.
+
+before asking kishan for internal metadata, agents must use this deterministic lookup order:
+
+1. `~/vault/system/agent-registry.md`
+2. agent-local identity/spec files
+3. agent workspace files
+4. main workspace `AGENTS.md`
+5. vault system docs (`fleet-architecture.md`, `memory-architecture.md`)
+6. runtime/status/config surfaces
+
+rules:
+- semantic search is supplementary, not authoritative, for internal metadata
+- an empty result from one layer does not end retrieval; continue the ladder
+- if metadata is still incomplete after the ladder, report recovered facts, ambiguities, and checked paths before asking kishan
+
 ---
 
 ## 5. promotion contract
@@ -252,6 +270,7 @@ vault/
 │   ├── active-threads.md
 │   ├── lessons.md
 │   ├── fleet-architecture.md
+│   ├── agent-registry.md
 │   └── decisions/
 │       └── [decision notes]
 ├── health/
