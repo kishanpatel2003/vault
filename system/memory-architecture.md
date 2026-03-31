@@ -1,9 +1,9 @@
 ---
-title: "Memory Architecture Spec v1"
+title: "Memory Architecture Spec v2"
 type: system
 status: canonical
 created: 2026-03-29
-last_updated: 2026-03-29
+last_updated: 2026-03-30
 ---
 
 # Memory Architecture
@@ -14,21 +14,32 @@ this is the controlling document for how memory works across all agents. no comp
 
 ## 1. layers
 
-### layer A — vault (canonical durable memory)
+### layer A — vault (canonical durable memory + fetch research library)
 
 **location:** `~/vault/`
-**access:** diana read-only, fetch read/write, selena read (via specs)
+**access:** diana read-only (curates/promotes), fetch writes to `vault/fetch/` only, selena read (via specs), bryan reads `vault/health/`
 **purpose:** source of truth for anything worth remembering beyond a single session
 
-**belongs here:**
+**storage model: owner-first + explicit promotion**
+
+new artifacts are written to the creating agent's owned area by default. they enter canonical shared memory only via explicit promotion by diana.
+
+- `vault/fetch/` — fetch-owned research library (class B: working knowledge)
+- `vault/personal/`, `vault/system/`, `vault/health/`, `vault/missions/` — canonical shared memory (class A)
+
+**belongs here (canonical areas):**
 - kishan profile, preferences, patterns, evolving context
 - durable system/infrastructure lessons
 - decision records
-- research briefs and outputs
-- mission/project knowledge that persists
-- health baselines and longitudinal summaries (bryan-derived)
+- mission/project canonical state (not raw research)
+- health baselines and longitudinal summaries (bryan-derived, promoted)
 - agent operating knowledge worth reusing across sessions
 - active threads that matter beyond today
+
+**belongs here (fetch/ area):**
+- fetch research briefs and outputs
+- fetch evaluations
+- exploratory or intermediate research worth keeping
 
 **does NOT belong here:**
 - raw daily logs
@@ -96,7 +107,7 @@ retrieval is explicit, layered, and deterministic:
 | daily session notes | `memory/YYYY-MM-DD.md` | no (staging) | diana during periodic review | kept ~30 days, then archivable |
 | heartbeat entries | appended to daily log | no | never promoted raw; signal extracted during review | dies with daily log |
 | decisions | `decisions/YYYY-MM-DD-slug.md` | yes (local canonical) | migrate to vault `system/decisions/` | permanent |
-| research briefs | vault directly | yes | fetch writes directly | permanent |
+| research briefs | vault `fetch/` subfolders | no (working, owned by fetch) | diana promotes distilled version to canonical area | permanent in fetch/; promoted version permanent in canonical |
 | kishan profile/prefs | vault `personal/kishan/` | yes | diana updates when patterns change | permanent |
 | system lessons | vault `system/` | yes | diana writes when lesson is durable | permanent |
 | health baselines | vault `health/` (new) | yes | diana promotes from bryan logs | permanent |
@@ -180,6 +191,17 @@ promotion happens during diana's periodic memory review (every few days or durin
 
 ---
 
+## 5b. write permissions by agent
+
+| agent | default write target | may NOT write to (without explicit promotion instruction) |
+|-------|---------------------|----------------------------------------------------------|
+| fetch | `vault/fetch/` subfolders | `health/`, `personal/`, `system/`, `missions/` |
+| diana | workspace `memory/`, vault canonical areas (curate/promote only) | should not treat vault as scratchpad |
+| bryan | `workspace/bryan/` operational logs | vault (reads `health/` only) |
+| selena | code/spec/docs in workspaces | vault (reads only, structural edits by spec) |
+
+---
+
 ## 6. integrity rules
 
 ### must detect:
@@ -226,27 +248,32 @@ vault/
 ├── system/
 │   ├── _index.md
 │   ├── memory-architecture.md    ← this file
+│   ├── memory-inventory.md
 │   ├── active-threads.md
 │   ├── lessons.md
+│   ├── fleet-architecture.md
 │   └── decisions/
 │       └── [decision notes]
 ├── health/
 │   ├── _index.md
 │   ├── baselines.md
-│   └── summaries/
-│       └── [weekly/monthly summaries]
-├── missions/
+│   ├── summaries/
+│   │   └── [weekly/monthly summaries]
+│   └── protocols/
+│       └── [durable protocols]
+├── fetch/                         ← fetch-owned research library
 │   ├── _index.md
 │   ├── general/
-│   ├── polymarket/
-│   └── [future missions]
-├── tools/
-│   ├── _index.md
-│   └── [research notes]
-└── workflows/
+│   ├── health/
+│   ├── tools/
+│   └── missions/
+└── missions/                      ← canonical mission state only
     ├── _index.md
-    └── [research notes]
+    ├── polymarket/
+    └── [future missions]
 ```
+
+**retired folders:** `tools/` and `workflows/` are no longer top-level vault areas. their contents have been migrated to `fetch/tools/` and `fetch/general/` respectively.
 
 ---
 

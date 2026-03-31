@@ -1,12 +1,12 @@
 ---
 directory: missions/
-last_updated: 2026-03-05
+last_updated: 2026-03-30
 ---
 
 # missions/
 
-one subdirectory per active mission. each mission has its own _index.md.
+Canonical mission state only. Raw research briefs live in `fetch/missions/`.
 
 | mission | description | status |
 |---------|-------------|--------|
-| [polymarket](polymarket/_index.md) | prediction market strategy, regulatory landscape, data infrastructure | active |
+| [polymarket](polymarket/_index.md) | prediction market strategy and regulatory landscape | active |

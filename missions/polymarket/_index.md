@@ -1,9 +1,5 @@
 # missions/polymarket/
 
-Active mission: Polymarket.
+Active mission: Polymarket. Canonical strategy and decision state.
 
-## Subdirectories
-
-| Directory | Description |
-|-----------|-------------|
-| [research/](research/_index.md) | Research briefs on regulatory, market, and competitive landscape. |
+Raw research briefs have moved to `fetch/missions/` (e.g., `prediction-market-regulation.md`).
