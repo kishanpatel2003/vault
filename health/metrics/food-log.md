@@ -12,6 +12,24 @@ structured mirror of bryan's operational food log for obsidian viewing.
 **raw meal photos:** `~/.openclaw/workspace/bryan/food-log/`
 
 
+## 2026-03-31
+
+### breakfast
+- vegan eggs scrambled (~4-5 servings)
+- 2 slices bread with avocado mashed on top (avocado toast x2, ~1 avocado)
+- cottage cheese (~¾ cup)
+- blackberries (~half serving, ~75g)
+
+**estimated macros:**
+- protein: ~50-55g
+- carbs: ~55-65g
+- fat: ~30-35g
+- calories: ~650-750 kcal
+
+**notes:** avocado swap vs PB&J + milk = ~300 kcal and ~10-15g protein short vs plan. cottage cheese is a good add. avocado fat is quality (mono) but low protein. no milk today = missing ~16g protein + ~300 kcal. needs to make up ~10-15g protein across rest of day. flag if lunch is a weak office day.
+
+---
+
 ## 2026-03-29
 
 ### breakfast
