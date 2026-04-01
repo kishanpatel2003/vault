@@ -26,7 +26,24 @@ structured mirror of bryan's operational food log for obsidian viewing.
 - fat: ~30-35g
 - calories: ~650-750 kcal
 
-**notes:** avocado swap vs PB&J + milk = ~300 kcal and ~10-15g protein short vs plan. cottage cheese is a good add. avocado fat is quality (mono) but low protein. no milk today = missing ~16g protein + ~300 kcal. needs to make up ~10-15g protein across rest of day. flag if lunch is a weak office day.
+**notes:** avocado swap vs PB&J + milk = ~300 kcal and ~10-15g protein short vs plan. cottage cheese is a good add. avocado fat is quality (mono) but low protein. no milk today = missing ~16g protein + ~300 kcal. needs to make up ~10-15g protein across rest of day. WFH this week — no office lunch.
+
+### lunch
+- 2 veggie burgers (2.3 patties total — Morningstar/store brand, 64g per patty)
+- 2 buns
+- 2 slices cheese
+- lettuce, tomato, jalapeños, condiments (spicy mayo visible)
+
+**patty label (per patty):** 140 kcal | 16g protein | 7g fat | 1g sat fat | 7g carbs
+
+**estimated macros (full meal):**
+- protein: ~53-57g
+- carbs: ~60-65g
+- fat: ~38-44g
+- sat fat: ~11-13g ⚠️ HIGH — ~75-85% of daily ≤15g cap
+- calories: ~830-900 kcal
+
+**notes:** protein is strong. sat fat is the flag — cheese + condiments push it near daily ceiling. dinner must be yogurt bowl (Fage 0%), not paneer tonight.
 
 ---
 
