@@ -39,6 +39,7 @@ Fetch-owned research library. Not canonical shared memory until explicitly promo
   - fetch/tools/local-voice-conversation-stack.md — local-first voice conversation on macOS Apple Silicon (Mar 2026)
   - fetch/tools/aristotle-memory-plugin.md — Aristotle OpenClaw memory protection plugin (Mar 2026)
   - fetch/tools/aristotle-utility-analysis.md — utility analysis addendum for Aristotle patterns (Mar 2026)
+  - fetch/tools/autoagent-self-optimizing-agents.md — AutoAgent (thirdlayer.inc): open-source meta-agent harness optimizer; benchmark claims unverified (Apr 2026)
 - fetch/missions/ — mission-related research briefs and evals
   - fetch/missions/harness-engineering.md — harness engineering practices and evaluation frameworks (Mar 2026)
   - fetch/missions/harness-engineering-eval.md — self-assessment eval (18/18)
