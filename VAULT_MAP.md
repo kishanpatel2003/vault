@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-03-30
+last_updated: 2026-04-03
 maintained_by: diana
 ---
 
@@ -50,3 +50,6 @@ Fetch-owned research library. Not canonical shared memory until explicitly promo
 ## missions/
 Canonical mission state only. Raw research lives in fetch/missions/.
 - missions/polymarket/ — prediction market strategy and regulatory landscape
+- missions/general/ — general research not tied to a specific venture
+  - missions/general/research/harness-engineering.md — harness engineering: definition, best practices (Anthropic Nov 2025–Mar 2026, OpenAI early 2026), tooling, eval frameworks, field direction. 13 sources. (Apr 2026)
+  - missions/general/research/harness-engineering-eval.md — self-assessment eval, 18/18

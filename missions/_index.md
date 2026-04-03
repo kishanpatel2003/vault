@@ -10,3 +10,4 @@ Canonical mission state only. Raw research briefs live in `fetch/missions/`.
 | mission | description | status |
 |---------|-------------|--------|
 | [polymarket](polymarket/_index.md) | prediction market strategy and regulatory landscape | active |
+| [general](general/_index.md) | general research not tied to a specific venture | ongoing |
