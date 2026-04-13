@@ -31,6 +31,9 @@ tags: [kishan, personal, preferences]
 - blockers → smallest unblocking action
 - uncertainty → a reversible experiment to run
 
+## Collaboration Preferences
+- expects proactive completion updates on async work; having to ask "and?" after delegated work is a trust hit
+
 ## Active Missions (as of early 2026, age 22)
 - **career:** deliver high-impact work at spotify, build reputation, stay ahead
 - **build:** create products, agents, and systems that generate independent income

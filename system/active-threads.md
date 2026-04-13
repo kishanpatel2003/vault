@@ -32,3 +32,11 @@ token was pasted in plaintext during initial setup. needs revoke + new token fro
 pinned task. script works, just needs to be re-scheduled.
 
 **status:** pending re-scheduling
+
+---
+
+## openclaw auth/control layer for external repos
+
+selena's review of `Yuqi2002/agentic-job-hunting` concluded that direct oauth retrofit is not a real path. if kishan wants external repos to use hosted models safely, route model calls through openclaw as the auth/control layer instead.
+
+**status:** open — decide whether to build the proxy path or drop the retrofit attempt
