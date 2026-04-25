@@ -2,7 +2,7 @@
 title: "Active Threads"
 type: active_state
 created: 2026-03-29
-last_updated: 2026-03-29
+last_updated: 2026-04-24
 ---
 
 # Active Threads
@@ -29,7 +29,7 @@ token was pasted in plaintext during initial setup. needs revoke + new token fro
 
 ## fetch harness research
 
-pinned task. script works, just needs to be re-scheduled.
+pinned task. the underlying script appears fine, but the prior one-off cron schedule became stale and needs an explicit re-schedule if this still matters.
 
 **status:** pending re-scheduling
 
